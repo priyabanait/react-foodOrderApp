@@ -1,5 +1,6 @@
 import React,{Fragment} from 'react';
 import classes from './Header.module.css';
+
 import HeaderCartButton from './HeaderCartButton';
 export default function Header() {
   return (
@@ -11,6 +12,7 @@ export default function Header() {
       <div className={classes['main-image']}>
         <img src='https://github.com/academind/react-complete-guide-code/blob/11-practice-food-order-app/extra-files/meals.jpg?raw=true' alt='The table is full '></img>
       </div>
+    
     </Fragment>
   )
 }
